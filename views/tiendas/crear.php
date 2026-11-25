@@ -44,8 +44,25 @@ include __DIR__ . '/../../includes/header.php';
                 <input type="text" name="nombre" class="form-control"
                        value="<?= htmlspecialchars($_POST['nombre'] ?? '') ?>">
             </div>
-            <!-- direccion, telefono y correo: mismo patrón que nombre -->
-
+            <div class="form-group">
+    <label>Dirección</label>
+    <input type="text" name="direccion" class="form-control"
+           value="<?= htmlspecialchars($tienda['direccion'] ?? '') ?>">
+            
+            </div>
+            <div class="form-group">
+                <label>Teléfono</label>
+ 
+                <input type="text" name="telefono" class="form-control"
+                       value="<?= htmlspecialchars($tienda['telefono'] ?? '') ?>">
+            </div>
+            <div class="form-group">
+   
+                <label>Correo</label>
+                <input type="email" name="correo" class="form-control"
+           value="<?= htmlspecialchars($tienda['correo'] ?? '') ?>">
+            </div>
+            
             <button type="submit" class="btn btn-primary">Guardar</button>
             <a href="index.php" class="btn btn-secondary">Cancelar</a>
         </form>
