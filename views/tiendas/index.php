@@ -27,7 +27,9 @@ include __DIR__ . '/../../includes/header.php';
                 <tr>
                     <td><?= $t['id_tienda'] ?></td>
                     <td><?= htmlspecialchars($t['nombre']) ?></td>
-                    <!-- dirección, teléfono y correo: igual que nombre -->
+                    <td><?= htmlspecialchars($t['direccion'] ?? '') ?></td>
+                    <td><?= htmlspecialchars($t['telefono'] ?? '') ?></td>
+                    <td><?= htmlspecialchars($t['correo'] ?? '') ?></td>
                     <td>
                         <a href="editar.php?id=<?= $t['id_tienda'] ?>" class="btn btn-warning btn-sm">Editar</a>
                         <a href="eliminar.php?id=<?= $t['id_tienda'] ?>" class="btn btn-danger btn-sm">Eliminar</a>
