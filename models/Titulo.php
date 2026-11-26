@@ -104,4 +104,12 @@ class Titulo
             ':fecha_publicacion' => $d['fecha_publicacion'],
         ];
     }
+
+    public function ConteoTitulos(): int
+    {
+        $stmt = $this->db->prepare("SELECT COUNT(*) AS total FROM titulos");
+        $stmt->execute();
+
+        return (int) $stmt->fetchColumn();
+    }
 }

@@ -61,6 +61,14 @@ public function delete($id)
     return $stmt->execute([':id' => $id]);
 }
 
+public function ConteoTiendas(): int
+    {
+        $stmt = $this->db->prepare("SELECT COUNT(*) AS total FROM tiendas");
+        $stmt->execute();
+
+        return (int) $stmt->fetchColumn();
+    }
+
     // public function update($id, $datos) { ... }   <- UPDATE ... WHERE id_tienda = :id
     // public function delete($id) { ... }           <- DELETE ... WHERE id_tienda = :id
 }
