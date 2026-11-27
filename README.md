@@ -7,3 +7,5 @@ Capturas:
 <img width="1894" height="921" alt="image" src="https://github.com/user-attachments/assets/b69c237b-e424-41b4-b495-686f61d8fd29" />
 
 Más detalles en el pdf 
+
+hola
