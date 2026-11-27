@@ -44,7 +44,7 @@ include __DIR__ . '/includes/header.php';
                         <div class="h5 mb-3 font-weight-bold text-gray-800">Tiendas</div>
                         <a href="views/tiendas/index.php" class="btn btn-primary btn-sm">Ir a Tiendas</a>
                     </div>
-                    <div class="col-1">
+                    <div class="col-auto">
                         <i class="fas fa-store fa-2x text-gray-300"></i>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ include __DIR__ . '/includes/header.php';
                         <div class="h5 mb-3 font-weight-bold text-gray-800">Títulos</div>
                         <a href="views/titulos/index.php" class="btn btn-success btn-sm">Ir a Títulos</a>
                     </div>
-                    <div class="col-1">
+                    <div class="col-auto">
                         <i class="fas fa-book fa-2x text-gray-300"></i>
                     </div>
                 </div>

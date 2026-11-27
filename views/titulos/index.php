@@ -14,8 +14,8 @@ include __DIR__ . '/../../includes/header.php';
 <a href="crear.php" class="btn btn-primary mb-3">Nuevo título</a>
 
 <div class="card shadow mb-4">
-    <div class="card-body">
-        <table class="table table-bordered">
+    <div class="card-body table-responsive">
+        <table class="table table-striped">
             <thead>
                 <tr>
                     <th>ID</th><th>Título</th><th>ISBN</th><th>Editorial</th>
