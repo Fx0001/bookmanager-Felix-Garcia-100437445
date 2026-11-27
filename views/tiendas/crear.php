@@ -40,26 +40,26 @@ include __DIR__ . '/../../includes/header.php';
     <div class="card-body">
         <form method="POST">
             <div class="form-group">
-                <label>Nombre</label>
-                <input type="text" name="nombre" class="form-control"
+                <label>Nombre:</label>
+                <input type="text" name="nombre" class="form-control" placeholder="Ej. Librería Central"
                        value="<?= htmlspecialchars($_POST['nombre'] ?? '') ?>">
             </div>
             <div class="form-group">
-    <label>Dirección</label>
-    <input type="text" name="direccion" class="form-control"
-           value="<?= htmlspecialchars($tienda['direccion'] ?? '') ?>">
+                <label>Dirección:</label>
+                <input type="text" name="direccion" class="form-control" placeholder="Ej. Av. Duarte #123, Santo Domingo"
+                value="<?= htmlspecialchars($tienda['direccion'] ?? '') ?>">
             
             </div>
             <div class="form-group">
-                <label>Teléfono</label>
+                <label>Teléfono:</label>
  
-                <input type="text" name="telefono" class="form-control"
+                <input type="text" name="telefono" class="form-control" maxlength="12" placeholder="8X9-XXX-XXXX"
                        value="<?= htmlspecialchars($tienda['telefono'] ?? '') ?>">
             </div>
             <div class="form-group">
    
-                <label>Correo</label>
-                <input type="email" name="correo" class="form-control"
+                <label>Correo:</label>
+                <input type="email" name="correo" class="form-control" placeholder="Usuario@servidor.com"
            value="<?= htmlspecialchars($tienda['correo'] ?? '') ?>">
             </div>
             
