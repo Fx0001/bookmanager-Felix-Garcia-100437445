@@ -80,8 +80,9 @@ include __DIR__ . '/includes/header.php';
                         <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                             Cantidad de tiendas actualmente:
                         </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800" <span>
-                            <?php echo htmlspecialchars((string) ($totalTiendas ?? 0), ENT_QUOTES, 'UTF-8'); ?></span>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">
+                            <span> <?php echo htmlspecialchars((string) ($totalTiendas ?? 0), ENT_QUOTES, 'UTF-8'); ?>
+                            </span>
                         </div>
                     </div>
                     <div class="col-auto">
@@ -101,7 +102,7 @@ include __DIR__ . '/includes/header.php';
                         <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                             Cantidad de titulos actualmente:
                         </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800" <span>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800" > <span>
                             <span><?php echo htmlspecialchars((string) ($totalTitulos ?? 0), ENT_QUOTES, 'UTF-8'); ?></span>
                         </div>
                     </div>
