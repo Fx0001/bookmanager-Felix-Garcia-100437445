@@ -70,10 +70,10 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Correos:</h6>
+                        <h6 class="collapse-header mt-1">Correos:</h6>
                         <a class="collapse-item" >felixjesusga0@gmail.com</a>
-                        <a class="collapse-item" >Correo@servidor.com</a><br>
-                        <h6 class="collapse-header">Telefonos:</h6>
+                        <a class="collapse-item" >Correo@servidor.com</a>
+                        <h6 class="collapse-header mt-3">Telefonos:</h6>
                         <a class="collapse-item" >809-xxx-xxxx</a>
                         <a class="collapse-item" >829-xxx-xxxx</a>
                     </div>
